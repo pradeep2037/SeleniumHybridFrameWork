@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-28T22:12:17 IST" name="Suite" finished-at="2025-03-28T22:12:29 IST" duration-ms="11971">
+    <groups>
+    </groups>
+    <test started-at="2025-03-28T22:12:17 IST" name="Test" finished-at="2025-03-28T22:12:29 IST" duration-ms="11971">
+      <class name="regression.ValidateLoginUsingPOMAndDataProviderUsingExcel">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:regression.ValidateLoginUsingPOMAndDataProviderUsingExcel@305ffe9e]" started-at="2025-03-28T22:12:17 IST" name="beforeTest" finished-at="2025-03-28T22:12:17 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.reflect.Method)[pri:0, instance:regression.ValidateLoginUsingPOMAndDataProviderUsingExcel@305ffe9e]" started-at="2025-03-28T22:12:19 IST" name="initialSetUp" finished-at="2025-03-28T22:12:24 IST" duration-ms="5066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void regression.ValidateLoginUsingPOMAndDataProviderUsingExcel.validateLoginTest(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="validateLoginTest(java.util.HashMap)[pri:0, instance:regression.ValidateLoginUsingPOMAndDataProviderUsingExcel@305ffe9e]" started-at="2025-03-28T22:12:24 IST" name="validateLoginTest" data-provider="getTestData" finished-at="2025-03-28T22:12:25 IST" duration-ms="1274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expTitle=Adactin.com - Search Hotel, password=pradeep264, username=pradeep264}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="finalSetUp()[pri:0, instance:regression.ValidateLoginUsingPOMAndDataProviderUsingExcel@305ffe9e]" started-at="2025-03-28T22:12:25 IST" name="finalSetUp" finished-at="2025-03-28T22:12:28 IST" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalSetUp -->
+        <test-method is-config="true" signature="reportsEnd()[pri:0, instance:regression.ValidateLoginUsingPOMAndDataProviderUsingExcel@305ffe9e]" started-at="2025-03-28T22:12:28 IST" name="reportsEnd" finished-at="2025-03-28T22:12:29 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsEnd -->
+      </class> <!-- regression.ValidateLoginUsingPOMAndDataProviderUsingExcel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+<listeners>
+
+<listener class-name="utils.MyTestNGListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="regression.ValidateLoginUsingPOMAndDataProviderUsingExcel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
